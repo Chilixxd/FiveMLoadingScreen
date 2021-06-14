@@ -1,0 +1,77 @@
+.strings {   
+    z-index: 1;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: auto !important;
+}
+  
+.video { 
+    right:0px;
+    width: 100%    !important;
+    height: auto   !important;
+    position: relative; 
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+.video-container {
+    position: relative;
+    height: 100%;
+}
+
+.video-container .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.video-container .underline {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    font-size: large;
+    /*Set font to lighter 100-300*/
+}
+
+#myVideo {
+
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.pause {
+    z-index: 20;
+    letter-spacing: 2.5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
